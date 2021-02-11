@@ -1,0 +1,15 @@
+{
+    "name": "Geo Img",
+    "description": "GPS",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Lasse Rune Hansen"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

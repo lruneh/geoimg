@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>geoimg</id>
+    <name>Geo Img</name>
+    <summary>GPS</summary>
+    <description><![CDATA[GPS images exif util]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="lasse@lrh.dk" homepage="https://lasserh.dk">Lasse Rune Hansen</author>
+    <namespace>GeoImg</namespace>
+    <category>multimedia</category>
+    <bugs>https://lasserh.dk</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Geo Img</name>
+            <route>geoimg.page.index</route>
+        </navigation>
+    </navigations>
+</info>
